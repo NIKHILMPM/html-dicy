@@ -23,7 +23,6 @@ function checker(){
         result(d1,d2);
     }
 }
-// document.querySelector("h1").innerHTML = d1+" "+d2;
 
 function result(d1,d2) {
     if (d1 > d2) {
@@ -60,35 +59,3 @@ function roll_dice() {
     return ans;
 
 }
-
-// function playGame() {
-//     var p1 = dicer();
-//     var p2 = dicer();
-
-//     var imgg1 = "dice" + p1 + ".png";
-//     var imgg2 = "dice" + p2 + ".png";
-
-//     document.querySelector(".img1").src = imgg1;
-//     document.querySelector(".img2").src = imgg2;
-
-//     if (p1 > p2) {
-//         document.querySelector("h1").innerHTML = "player 1 has won.";
-//         document.querySelector(".h3_1").innerHTML = "player 1 won";
-//         document.querySelector(".h3_2").innerHTML = "player 2 lost";
-
-
-//     } else if (p1 < p2) {
-//         document.querySelector("h1").innerHTML = "player 2 has won.";
-//         document.querySelector(".h3_1").innerHTML = "player 1 lost";
-//         document.querySelector(".h3_2").innerHTML = "player 2 won";
-//     } else {
-//         document.querySelector("h1").innerHTML = "its a draw";
-//     }
-//     // document.querySelector("h1").innerHTML = random_num;
-
-// };
-
-// function dicer() {
-//     var num = Math.floor(Math.random() * 6) + 1;
-//     return num;
-// }
