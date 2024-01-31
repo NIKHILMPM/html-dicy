@@ -33,7 +33,7 @@ function result(d1,d2) {
     } else {
         document.querySelector("h1").innerHTML = "its a draw";
     }
-    setTimeout(function(){myFunction();},2000);
+    setTimeout(function(){myFunction();},1000);
     
 }
 
