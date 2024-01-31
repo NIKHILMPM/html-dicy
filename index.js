@@ -33,9 +33,13 @@ function result(d1,d2) {
     } else {
         document.querySelector("h1").innerHTML = "its a draw";
     }
-    document.querySelector("#f_btn").classList.remove("invisible")
+    setTimeout(myFunction, 2000);
+    
 }
 
+function myFunction(){
+    document.querySelector("#f_btn").classList.remove("invisible");
+}
 
 function dice_1() {
     var d = roll_dice();
