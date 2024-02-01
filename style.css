@@ -54,8 +54,8 @@ h1:hover{
 img {
     border-radius: 50px;
     background: linear-gradient(#393E46, #092635);
-    box-shadow: 10px 10px 42px rgb(24, 24, 24),
-        -10px -10px 42px rgb(24, 24, 24);
+    box-shadow: 22px 22px 42px rgb(24, 24, 24),
+        -22px -22px 42px rgb(24, 24, 24);
     transition: ease-in 0.3s;
 }
 img:hover{
